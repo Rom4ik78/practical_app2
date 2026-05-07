@@ -12,18 +12,67 @@ The objective of this project is to identify the key factors that influence used
 ## 📂 Dataset
 The original dataset contained information on 3 million used cars. The provided dataset contains information on 426K cars to ensure the speed of processing.  
 
-## 🎯 Problem Statement
+The dataset contained information about used vehicles, including:
+
+- Vehicle price
+- Manufacturer
+- Model
+- Year
+- Odometer mileage
+- Fuel type
+- Transmission
+- Vehicle condition
+- Title status
+- Drive type
+- Vehicle type
+- Region
+- State
+
+Several preprocessing and cleaning steps were required before modeling due to missing values, outliers, inconsistent categories, and skewed distributions.
+
+## Data Preparation and Feature Engineering
+
+The following preprocessing steps significantly improved model quality:
+
+### Data Cleaning
+- Removed unrealistic price and mileage values
+- Filtered extreme outliers using percentile thresholds
+- Handled missing values
+- Simplified noisy categorical variables
+
+### Feature Engineering
+
+Several new features were created to better represent vehicle depreciation patterns:
+Vehicle Age Calculated from manufacturing year
+Log-Transformed Mileage and target Price
+Reduced skewness in odometer distribution
+Grouped Categories
+Simplified title status and vehicle types
+
+These engineered features improved both interpretability and predictive performance.
+## Problem Statement
 From a business perspective, accurate price prediction can support inventory management, improve pricing strategies, reduce overpricing or underpricing risks, and increase profitability. The analysis also helps dealers identify which vehicle attributes contribute most to resale value, allowing them to make more informed purchasing and stocking decisions.
 
 From a data science perspective, this problem is framed as a supervised machine learning regression task, where the target variable is vehicle price and the predictor variables are the vehicle characteristics contained in the dataset. The project involves data cleaning, exploratory data analysis, feature engineering, model development, and evaluation using regression techniques such as Linear Regression, Ridge, Lasso.
 
 ## 📊 Key Results
-Clear recommendations to your client—a used car dealership—as to what consumers value in a used car.
-
-## 💡 Hypothesis
+### 1. Vehicle Age Is One of the Strongest Price Drivers
+Older vehicles consistently showed lower resale values. Depreciation was especially significant during the first several years of ownership.
+### 2. Mileage Strongly Impacts Vehicle Value
+Higher mileage was associated with lower prices across nearly all vehicle categories.
+The relationship between mileage and price was nonlinear, which is why log-transformed mileage improved model performance.
+### 3. Title Status Has Major Financial Impact
+Vehicles with clean titles retained substantially higher values compared to salvage or rebuilt vehicles.
+### 4. Certain Manufacturers Retain Value Better
+Brands such as Toyota demonstrated stronger resale value compared to many competitors.
+Diesel vehicles also showed relatively strong pricing performance in some segments.
+### 5. Vehicle Condition Influences Pricing
+Vehicles listed in excellent or like-new condition generally achieved higher market prices.
+However, condition categories also showed inconsistencies due to subjective seller labeling.
 
 ## ✅ Conclusion
-
+This project demonstrated that machine learning and exploratory data analysis can provide actionable insights into used car pricing behavior. Vehicle age, mileage, title status, manufacturer, and condition were identified as the primary drivers of resale value.
+The final predictive models showed that structured preprocessing, feature engineering, and regularization techniques substantially improve predictive accuracy. These findings can help dealerships make more informed inventory purchases, improve pricing consistency, and reduce financial risk in the used vehicle market.
 ## 🚀 How to Run
 
 ``` bash
