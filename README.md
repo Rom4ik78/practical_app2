@@ -138,7 +138,7 @@ These findings can help dealerships:
 git clone https://github.com/Rom4ik78/practical_app2.git
 cd practical_app2
 pip install -r requirements.txt
-jupyter notebook
+jupyter notebook prompt_II.ipynb
 ```
 
 ---
