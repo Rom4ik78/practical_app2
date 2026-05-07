@@ -147,6 +147,7 @@ jupyter notebook prompt_II.ipynb
 
 ```text
 ├── data/
+├── docs/
 ├── images/
 ├── prompt_II.ipynb
 ├── README.md
