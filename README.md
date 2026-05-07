@@ -88,27 +88,27 @@ Several regression techniques were evaluated, including:
 
 ## 📊 Key Results
 
-### 1. Vehicle Age Is One of the Strongest Price Drivers
+**1. Vehicle Age Is One of the Strongest Price Drivers**
 
 Older vehicles consistently showed lower resale values. Depreciation was especially significant during the first several years of ownership.
 
-### 2. Mileage Strongly Impacts Vehicle Value
+**2. Mileage Strongly Impacts Vehicle Value**
 
 Higher mileage was associated with lower prices across nearly all vehicle categories.
 
 The relationship between mileage and price was nonlinear, which is why log-transformed mileage improved model performance.
 
-### 3. Title Status Has Major Financial Impact
+**3. Title Status Has Major Financial Impact**
 
 Vehicles with clean titles retained substantially higher values compared to salvage or rebuilt vehicles.
 
-### 4. Certain Manufacturers Retain Value Better
+**4. Certain Manufacturers Retain Value Better**
 
 Brands such as Toyota demonstrated stronger resale value compared to many competitors.
 
 Diesel vehicles also showed relatively strong pricing performance in certain market segments.
 
-### 5. Vehicle Condition Influences Pricing
+**5. Vehicle Condition Influences Pricing**
 
 Vehicles listed in excellent or like-new condition generally achieved higher market prices.
 
