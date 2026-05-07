@@ -56,17 +56,17 @@ From a business perspective, accurate price prediction can support inventory man
 From a data science perspective, this problem is framed as a supervised machine learning regression task, where the target variable is vehicle price and the predictor variables are the vehicle characteristics contained in the dataset. The project involves data cleaning, exploratory data analysis, feature engineering, model development, and evaluation using regression techniques such as Linear Regression, Ridge, Lasso.
 
 ## 📊 Key Results
-### 1. Vehicle Age Is One of the Strongest Price Drivers
+**1. Vehicle Age Is One of the Strongest Price Drivers **
 Older vehicles consistently showed lower resale values. Depreciation was especially significant during the first several years of ownership.
-### 2. Mileage Strongly Impacts Vehicle Value
+**2. Mileage Strongly Impacts Vehicle Value **
 Higher mileage was associated with lower prices across nearly all vehicle categories.
 The relationship between mileage and price was nonlinear, which is why log-transformed mileage improved model performance.
-### 3. Title Status Has Major Financial Impact
+** 3. Title Status Has Major Financial Impact **
 Vehicles with clean titles retained substantially higher values compared to salvage or rebuilt vehicles.
-### 4. Certain Manufacturers Retain Value Better
+** 4. Certain Manufacturers Retain Value Better **
 Brands such as Toyota demonstrated stronger resale value compared to many competitors.
 Diesel vehicles also showed relatively strong pricing performance in some segments.
-### 5. Vehicle Condition Influences Pricing
+** 5. Vehicle Condition Influences Pricing **
 Vehicles listed in excellent or like-new condition generally achieved higher market prices.
 However, condition categories also showed inconsistencies due to subjective seller labeling.
 
